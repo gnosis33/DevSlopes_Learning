@@ -1,0 +1,49 @@
+.border {
+    padding: 1px 20px 1px 20px;
+    background-color: lightblue;
+    width: 350px;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50px;
+    grid-area: 0;
+    
+}
+
+.gridbox {
+    border: 1px lightgrey;
+    border-style: none none solid none;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.name {
+    color: black;
+    grid-area: 1;
+    padding: 10px;
+}
+
+.address {
+    color: gray;
+    grid-area: 2;
+    font-size: larger; 
+}

@@ -1,0 +1,41 @@
+
+
+body {
+    background-color: lightgray;
+    font-size: larger;
+    font-family: fantasy;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.max_planck {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+div {
+    border: solid 1px;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.quote {
+    color: white;
+    background-color: black;
+}
+
+
+ul {
+    font-style: italic;
+    list-style: none;
+}
+
+li {
+    border: dotted 1px;
+    margin: 5px;
+
+}

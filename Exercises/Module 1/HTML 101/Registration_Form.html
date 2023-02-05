@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registration Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+
+        <hr>
+
+        <h2>Provide your information</h2>
+
+        <form autocomplete="on" target="_blank" method="post">
+            <label for="firstName">First Name*</label><br>
+            <input required id="firstName" name="firstName" type="text" placeholder="First Name"><br>
+            <label for="lastName">Last Name*</label><br>
+            <input required id="lastName" name="lastName" type="text" placeholder="Last Name">
+            <br><br>
+
+            <label for="email">Email*</label><br>
+            <input required id="email" type="email" placeholder="email@email.com">
+            <br><br>
+
+            <label for="dob">DOB*</label><br>
+            <input required id="dob" type="date" placeholder="mm/dd/yyyy">
+            <br><br>
+
+            <label for="phonenumber">Phone Number</label><br>
+            <input name="telephone" id="phonenumber" type="text" size="1" maxlength="3" placeholder="xxx">
+            -
+            <input name="telephone" id="phonenumber" type="text" size="1" maxlength="3" placeholder="xxx">
+            -
+            <input name="telephone" id="phonenumber" type="text" size="1" maxlength="4" placeholder="xxxx">
+            <br><br>
+
+            <label for="gender">Gender*</label><br>
+            <label for="male">
+                <input required name="gender" id="male" type="radio" value="male">
+                Male
+            </label><br>
+            <label for="female">
+                <input required name="gender" id="female" type="radio" value="female">
+                Female
+            </label><br>
+            <label for="other">
+                <input required name="gender" id="other" type="radio" value="other">
+                Other
+            </label><br><br>
+
+            <label for="householdsize">Household Size</label><br>
+            <input id="householdsize" type="text" size="1" maxlength="2">
+
+            <br><br>
+
+            <label for="income">Household Income</label><br>
+            <input list="income" name="income" >
+                <datalist id="income">
+                    <option value="40k"> Less than 40k </option>
+                    <option value="100k"> 40k-100k </option>
+                    <option value="250k"> 100k-250k </option>
+                    <option value="500k"> 250k-500k </option>
+                    <option value="500k+"> 500k+ </option>
+
+                </datalist>
+            
+            <br><br>
+
+            <label for="message">Message</label><br>
+            <textarea name="message" rows="8" cols="40" placeholder="Write your message here."></textarea><br><br>
+
+            <label for="password">Password*</label><br>
+            <input id="password" type="password" required><br>
+            <label for="password">Confirm Password*</label><br>
+            <input id="password" type="password" required>
+            
+            <br><br><br>
+            <input id="t&c" type="checkbox">
+            <label for="t&c">by checking this box you agree to the <a href="file:///C:/Users/Light/OneDrive/Documents/DEVcodes/Terms_And_Conditions.html">Terms and Conditions</a></label><br>
+            <br><br>
+
+            <input type="submit">
+
+        </form>
+
+
+        <script src="" async defer></script>
+    </body>
+</html>

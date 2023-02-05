@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Survey Form</h1>
+        <form>
+            <label for="Name">Name:*</label><br>
+            <input required id="Name" name="Name" type="text" placeholder="Enter Your Name" size="44px"><br><br>
+
+            <label for="Email">Email:*</label><br>
+            <input required id="Email" name="Email" type="text" placeholder="Enter Your Email" size="44px"><br><br>
+
+            <label for="Age">Age:(optional)</label><br>
+            <input id="Age" name="Age" type="text" placeholder="Enter Your Age" size="44px"><br><br>
+
+            <label for="role">Which option best describes your current role??</label><br>
+            <input list="role" name="role" placeholder="Choose..." size="44px">
+                <datalist id="role" >
+                    <option value="Student">Student</option>
+                    <option value="Full Time Job">Full Time Job</option>
+                    <option value="Full Time Learner">Full Time Learner</option>
+                    <option value="Prefer not to say">Prefer not to say</option>
+                    <option value="Other">Other</option>
+                </datalist>
+            <br><br>
+
+            <label for="recommend">Would you recommend Devslopes to a friend? </label><br>
+            <input name="recommend" id="yes" type="radio" value="yes">
+                <label for="yes">Yes</label><br>
+            <input name="recommend" id="maybe" type="radio" value="maybe">
+                <label for="maybe">Maybe</label><br>
+            <input name="recommend" id="no" type="radio" value="no">
+                <label for="no">No</label><br>
+            <br><br>
+
+            <label for="feature">What is your favorite feature of Devslopes??</label><br>
+            <input list="feature" name="feature" placeholder="Choose...">
+                <datalist id="feature" >
+                    <option value="Challenges">Challenges</option>
+                    <option value="Projects">Projects</option>
+                    <option value="Community">Community</option>
+                    <option value="Mentorship">Mentorship</option>
+                    <option value="Other">Other</option>
+                </datalist>
+            <br><br>
+
+            <label>What would you like to see improved?</label>
+            <br>
+
+            <input name="Front-end Projects" id="Front-end Projects" type="checkbox" value="Front-end Projects">
+                <label for="Front-end Projects">Front-end Projects</label><br>
+            <input name="Back-end Projects" id="Back-end Projects" type="checkbox" value="Back-end Projects">
+                <label for="Back-end Projects">Back-end Projects</label><br>
+            <input name="Challenges" id="Challenges" type="checkbox" value="Challenges">
+                <label for="Challenges">Challenges</label><br>
+            <input name="Videos" id="Videos" type="checkbox" value="Videos">
+                <label for="Videos">Videos</label><br>
+            <input name="Online Meetups" id="Online Meetups" type="checkbox" value="Online Meetups">
+                <label for="Online Meetups">Online Meetups</label> <br>
+            <input name="Community" id="Community" type="checkbox" value="Community">
+                <label for="Community">Community</label><br>
+            <br><br>
+
+            <label for="comments">Any comments or suggestions?:</label><br>
+            <textarea name="comments" rows="5" cols="40" placeholder="enter your comment here"></textarea><br><br>
+        </form>
+    </body>
+</html>

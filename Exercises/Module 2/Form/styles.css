@@ -1,0 +1,30 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/gradient-purple-hexagonal-background_23-2148965956.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+
+    color: white;
+}
+    
+h1 {
+    text-align: center;
+}
+
+form {
+    position: absolute;
+    left: 35%;
+    background-color: rgba(76,0,80,0.3);
+    border-radius: 5px;
+    text-align: left;
+    width: fit-content;
+    padding: 20px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+textarea {
+    border-radius: 5px; 
+}

@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Upload Video</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="submit.css">
+    </head>
+    <body>
+        
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="./Pages/collectionOne.html">Collection One</a>
+            <a href="./Pages/collectiontwo.html">Collection Two</a>
+            <a href="./Pages/collectionThree.html">Collection Three</a>
+            <a href="./Submit.html">Upload Video</a>
+        </nav>
+        <br><br>
+        <div class="Form-Container">
+            <h1 class="text">Upload New Video</h1>
+
+            <form>
+                <label class="text" for="title">Titile</label><br>
+                <input type="text" id="title" placeholder="add title here" required><br><br>
+                
+                <label class="text" for="description">Add description</label><br>
+                <textarea type="text" id="description" rows="8" cols="40" placeholder="add description here" required></textarea><br><br>
+
+                <label class="text" for="upload">Upload New Video File</label><br>
+                <input class="text" type="file" id="upload" required><br><br>
+
+                <label class="text" for="public">
+                    <input name="share" id="public" type="radio" value="public" required>
+                    Public
+                </label><br>
+                <label class="text" for="private">
+                    <input name="share" id="private" type="radio" value="private" required>
+                    Private
+                </label><br><br>
+
+                <label class="text" for="Collection">Choose A Collection</label><br>
+                <input list="Collection" name="Collection" class="Collection" placeholder="Choose...">
+                    <datalist id="Collection">
+                        <option value="collectionOne">Collection One</option>
+                        <option value="collectionTwo">Collection Two</option>
+                        <option value="collectionThree">Collection Three</option>
+                        <option value="newCollection">New Collection</option>
+                    </datalist>
+                    <br><br>
+
+                <input class="submit" type="submit">
+            </form>
+        </div>
+        <hr>
+        <footer>&copy: Copyright</footer>
+    </body>
+</html>

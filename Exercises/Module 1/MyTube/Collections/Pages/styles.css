@@ -1,0 +1,63 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+nav {
+    background-image: linear-gradient(rgba(211,211,211,0.9), rgba(128,128,128,0.9));
+    background-size: cover;
+    padding-left: 0px;
+    border-color: black;
+    border-radius: 1px;
+    border: 1px solid black;
+    position: fixed;
+    font-size: x-large;
+    width: 99%;
+    overflow: hidden;
+    height: 25px;
+
+
+}
+
+div {
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 10px;
+    color: azure;
+}
+
+iframe {
+    height: 200px;
+    width: 200px;
+}
+
+a{
+  text-decoration: none;
+  padding: 5px;
+}
+/* unvisited link */
+a:link {
+color: red;
+}
+
+/* visited link */
+a:visited {
+color: white;
+}
+
+/* mouse over link */
+a:hover {
+color: hotpink;
+}
+
+/* selected link */
+a:active {
+color: blue;
+}
+
+td {
+border: 1px solid black;
+}
