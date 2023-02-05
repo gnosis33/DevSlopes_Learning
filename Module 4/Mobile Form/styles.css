@@ -1,0 +1,68 @@
+.topbar {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-top: 0.875rem;
+    padding-bottom: 0.175rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: var(--font-color-dark);
+    color: var(--white);
+    
+}
+
+.contacts {
+    flex-grow: 1;
+}
+
+.vertical {
+    font-size: 1rem;
+}
+
+.info {
+    display: flex;
+    
+}
+
+.input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid var(--font-color-dark);
+    color: var(--font-color-base);
+    background-color: var(--font-color-light);
+    border-radius: 3px 3px 0px 0px;
+    width: 100%;
+    height: 30px;
+    margin: 5px;
+}
+
+
+
+#phone[type="number"] {
+    width: 270px;
+    max-width: 375px;
+}
+
+#zip[type="number"] {
+    width: 75px;
+}
+.zip{
+    margin-left: 10px;
+}
+#birthday[type="date"] {
+    width: 337px;
+}
+
+input {
+    width: 100%;
+}
+
+.submit {
+    margin-right: 7px;
+}
+
+
+
+
+
