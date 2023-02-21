@@ -317,7 +317,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     .nav-flex {
         flex-direction: column;

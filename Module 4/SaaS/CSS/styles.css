@@ -1,5 +1,7 @@
 .navbar {
     position: fixed;
+    display: flex;
+    justify-content: center;
     top: 0;
     right: 0;
     left: 0;
@@ -15,15 +17,6 @@
 
 }
 
-/*
-
-.navbar.sticky .navbar-toggler span,
-.navbar.sticky .brand,
-.navbar.sticky .nav-link a {
-    color: var(--font-color-dark);
-}
-
-*/
 .navbar-toggler {
     position: absolute;
     right: var(--size-20);
@@ -95,6 +88,7 @@
 
 .bg-header {
     background-image: url("../assets/banners/Background.svg");
+    /*given background asset didn't work so I made my own*/
     background-repeat: no-repeat;
     background-size: 800px;
     background-position: 100% -10px;
@@ -234,6 +228,12 @@
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.service-card:hover {
+    margin-bottom: var(--size-5);
+    line-height: 1.5;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
 .service-card p {
     font-size: var(--size-10);
 }
@@ -250,7 +250,6 @@
     background-position: -50px;
     background-size: 500px;
     position: relative;
- /*   margin: auto; */
 }
 
 .why {
@@ -416,7 +415,6 @@
     gap: var(--size-50);
     margin-bottom: var(--size-50);
     justify-content: center;
-
 }
 
 .big {
@@ -453,6 +451,10 @@
 
 .description-card h3 {
     font-size: var(--size-15);
+}
+
+.hire-bg {
+    background-color: var(--footer-base);    
 }
 
 .hire-us {
@@ -556,21 +558,33 @@
 }
 
 .form input[type="text"] {
-    border-color: transparent;
-    width: 45%;
+    border: 1px solid var(--black);
+    padding: 10px;
+    border-radius: 10px;
+    width: 49.5%;
 }
 
 .list {
-    border-color: transparent;
+    border: 1px solid var(--black);
+    padding: 10px;
+    border-radius: 10px;
     font-weight: 900;
-    width: 45%;
+    width: 49.5%;
     color: var(--font-color-dark);
 }
 
+.country-list .list {
+    margin-top: var(--size-10);
+    border: transparent;
+}
+
 .form textarea {
-    border-color: transparent;
+    width: 100%;
+    border: 1px solid var(--black);
+    border-radius: 10px;
     color: var(--font-color-dark);
     font-weight: 600;
+    margin-bottom: var(--size-20);
 }
 
 .form form input {
@@ -580,6 +594,7 @@
 
 .form .privacy {
     margin-left: var(--size-50);
+    letter-spacing: 1.7px;
 }
 
 .privacy div {
@@ -593,12 +608,15 @@
     background-position: bottom;
     background-size: 10px 1px;
     background-repeat: repeat-x;
-
 }
 
 .form input[type="submit"] {
     display: block;
     margin: var(--size-10) auto;
+}
+
+input[type="submit"]:hover {
+    color: var(--black);
 }
 
 .links-container {
@@ -687,5 +705,6 @@
 }
 
 a:hover {
-    color: var(--font-color-base);
+    color: var(--black);
 }
+

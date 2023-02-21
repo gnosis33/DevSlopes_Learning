@@ -28,7 +28,7 @@ function draw() {
 //    bubble.move();
     for(let i = 0; i < bubbles.length; i++) {
         bubbles[i].shell();
-        bubbles[i].move(random(-5, 5), random(-5, 5)); 
+        bubbles[i].move(random(random(-2,-0.1), random(0.1,2)), random(random(-2,-0.1), random(0.1,2))); 
         bubbles[i].color();  
     }
 

@@ -23,9 +23,8 @@
         <script src="https://kit.fontawesome.com/c31d785b97.js" crossorigin="anonymous"></script>
     </head>
     <body>
-
         <nav id="topNav" class="navbar">
-            <div class="container margin">
+            <div class="size-mod container margin">
                 <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
                     <span>&#9776;</span>
                 </button>
@@ -50,7 +49,6 @@
                             </li>
                         </ul>
                     </li>
-                    
                     <li class="nav-link spacer">
                         <a class="btn" href="#">Buy Now</a>
                     </li>
@@ -58,7 +56,7 @@
             </div>
         </nav>
         <header class="bg-header margin">
-            <div class="container hero-grid">
+            <div class="size-mod container hero-grid">
                 <div class="hero-wrapper">
                     <h2 class="hero-header">
                         Empowering <br> teams with <div class="breaker"><br></div> the <br> freedom
@@ -96,7 +94,7 @@
             </div>
         </header>
         <section class="key-benefits padding">
-            <div class="container">
+            <div class="size-mod container">
                 <h3>Key Benefits</h3>
                 <h4>Design faster with a growing array of beautiful templates</h4>
                 <div class="service-grid">
@@ -131,7 +129,7 @@
             </div>
         </section>
         <section class="padding">
-            <div class="service-grid container change-grid">
+            <div class="size-mod service-grid container change-grid">
                 <div>
                     <h3 class="modifier">Front makes you look at things from a different prospective</h3>
                     <a class="btn spacer" href="#">
@@ -143,7 +141,7 @@
             </div>
         </section>
         <section>
-            <div class="why padding container">
+            <div class="size-mod why padding container">
                 <h3>Why Front?</h3>
                 <p>Front is an incredibly beautiful, fully responsive, and mobile-first projects on <br> the web - it is the starting point for creative sites</p>
                 <div class="dot-grid minmax">
@@ -178,30 +176,25 @@
                             </div>
                         </div>                       
                         <div>Page layouts</div>
-                    </div>
-                    
-                    
-                </div>
-                
+                    </div>  
+                </div>   
             </div>
         </section>
-        <section class="video padding">
+        <section class="size-mod video padding">
             <img  src="../assets/banners/banner_two.jpg" alt="">
             <a href="#" class="video-btn">
                 <i class="fa-solid fa-play"></i>
             </a>
         </section>
-
         <section>
-            <div class="picture-grid">
+            <div class="size-mod picture-grid">
                 <div class="woman-container">
                     <div class="picture">
                         <img class="woman" src="../assets/people/woman_three.jpg" alt="woman_three">
                         <div class="dots">
                             <img src="../assets/abstract/dots.svg" alt="dots">
                         </div>
-                    </div>
-                    
+                    </div>   
                 </div>   
                 <div class="hubspot-info">
                     <div>
@@ -214,7 +207,7 @@
             </div>   
         </section>
         <section>
-            <div class="trusted">
+            <div class="size-mod trusted">
                 <div>TRUSTED BY WORLD'S BEST</div>
                 <div class="company-icons">
                     <img src="../assets/company_logos/weebly.svg" alt="weebly">
@@ -234,14 +227,11 @@
                         <div><b class="big black">59</b>/ mo</div>
                         <hr>
                         <div>Start your Front business now. 100% guaranteed money back. No questions asked.</div>
-
                         <a class="btn spacer" href="#">
                             <i id="line-height-two" class="fa-solid fa-play play-button"></i>
                             Play Video
                         </a>
-
                         <div>No credit card required.</div>
-
                     </div>
                     <div class="little-cards">
                         <div class="description-card">
@@ -269,12 +259,11 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
         <section>
-            <div class="container">
-                <div class="hire-us">
+            <div class="hire-bg container">
+                <div class="size-mod hire-us">
                     <div class="hire">
                         <div class="hire-child">
                             <div class="hire-top">
@@ -342,7 +331,7 @@
             </div>
         </section>
         <section>
-            <div class="container">
+            <div class="size-mod container">
                 <div class="links-container">
                     <div class="contact-links">
                         <div class="contact">
@@ -391,14 +380,11 @@
                             <span><i class="fa-solid fa-circle-user"></i><a href="#">  Your Account</a></span>    
                         </div>
                     </div>
-
                 </div>
-                
-                
             </div>
         </section>
         <section>
-            <div class="ref-socials">
+            <div class="size-mod ref-socials">
                 <div class="refs">
                     <a href="#">Privacy & Policy</a>
                     <div> > </div>
@@ -439,10 +425,8 @@
                 </div>
                 <br>
                 <br>
-            </div>
-            
+            </div> 
         </section>
-        
         <script>
             const nav = document.getElementById("topNav");
             window.onscroll = function () {
@@ -452,14 +436,12 @@
                     nav.classList.remove("sticky");
                 }
             }
-
             const navButton = document.querySelector('button[aria-expanded]');
 
             function toggleNav({ target }) {
                 const expanded = target.getAttribute('aria-expanded') === 'true' || false;
                 navButton.setAttribute('aria-expanded', !expanded);
             }
-
             navButton.addEventListener('click', toggleNav);
         </script>
     </body>
